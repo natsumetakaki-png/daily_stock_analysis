@@ -8,7 +8,7 @@ if (!(Test-Path 'node_modules')) {
 npm run build
 Pop-Location
 
-Write-Host 'Starting Electron desktop (dev mode)...'
+Write-Host 'Starting  Electron desktop (dev mode)...'
 Push-Location 'apps\dsa-desktop'
 if (!(Test-Path 'node_modules')) {
   npm install
